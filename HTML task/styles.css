@@ -2,13 +2,36 @@ td{
   border: 2px solid black;
 } 
 
-.border-all{
+.section{
   border: 1px solid black;
   background-color: rgb(190, 233, 184);
   font-size: 17px;
   font-style: italic;
+  padding: 12px 18px;
+  margin: 5px;
 } 
 
 .background-all{
   background-color: rgb(179, 167, 170);
+}
+
+.content{
+  display:flex
+}
+
+.aside{
+  flex: 2;
+}
+
+.main{
+  flex: 5;
+}
+
+.preview{
+  width: 100%;
+  max-width: 800px;
+}
+
+.aside-image{
+  max-width: 100%;
 }
