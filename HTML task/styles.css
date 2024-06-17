@@ -1,6 +1,6 @@
 td{
   border: 2px solid black;
-} 
+}
 
 .section{
   border: 1px solid black;
@@ -9,7 +9,11 @@ td{
   font-style: italic;
   padding: 12px 18px;
   margin: 5px;
-} 
+}
+
+.section:first-child {
+  margin-top: 0;
+}
 
 .background-all{
   background-color: rgb(179, 167, 170);
@@ -23,7 +27,7 @@ td{
   flex: 2;
 }
 
-.main{
+.sections-wrapper{
   flex: 5;
 }
 
